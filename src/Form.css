@@ -1,0 +1,13 @@
+.mainInput {
+    width: 100%;
+}
+
+.mainInput input {
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+    border: solid white 1px;
+    border-bottom: solid gray 1px;
+    font-family: "Courier New", Times, serif;
+    font-style: italic;
+    font-size: 20px;
+}

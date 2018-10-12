@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerTasks {
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    padding-bottom: 55px;
+}
+
+.oneNewTask {
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+    border: solid white 1px;
+    border-bottom: solid gray 1px;
+    font-family: "Courier New", Times, serif;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.oneNewTask:hover {
+    border: solid green 1px;
+}
+
+.oneNewTask p {
+    padding-top: 3px;
+    display: inline-block;
+}
+
+#notActTask {
+    cursor: pointer;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(./img/notok.png);
+    margin-right: 30px;
+}
+
+#actTask {
+    cursor: pointer;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(./img/ok.png);
+    margin-right: 30px;
+}
+
+#notActTask:hover {
+    width: 25px;
+    height: 25px;
+    background-size: 25px 25px;
+}
+#actTask:hover {
+    width: 24px;
+    height: 25px;
+    background-size: 26px 26px;
+}
+
+#taskDel {
+    cursor: pointer;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url(./img/del.png);
+}
+
+#taskDel:hover {
+    background-size: 26px 26px;
+}
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 3px 5px 3px 5px;
+    margin: 15px;
+    font-size: 13px;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+label:hover {
+    border: solid red 1px;
+    margin: 14px;
+    
+}
+
+.cntForBtn {
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 33%;
+}
+
+.act {
+    float: left;
+}
+
+.del {
+    float: right;
+}
+        
